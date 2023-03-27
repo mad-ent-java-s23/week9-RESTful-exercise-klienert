@@ -10,19 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa1fd966-bf20-449c-b053-5495052bc125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/ZipodeSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/persistence/weatherDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/PropertiesLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/Current.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weather/WeatherRep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/weather.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/persistence/SessionFactoryProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/taglib.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/persistence/weatherDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/keithlienert/Documents/EntJava/week-9-RESTful-exercise-klienert/src/main/java/com",
+    "last_opened_file_path": "/Users/keithlienert/Documents/EntJava/week-9-RESTful-exercise-klienert/src/test/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +76,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -91,7 +86,22 @@
       <recent name="com.controller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.weatherDAOTest">
+    <configuration name="weatherDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week-9-RESTful-exercise-klienert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.persistence.weatherDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TommyTheCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -181,6 +191,11 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="install" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.weatherDAOTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -192,7 +207,7 @@
       <updated>1679668919446</updated>
       <workItem from="1679668920622" duration="8943000" />
       <workItem from="1679766898688" duration="2597000" />
-      <workItem from="1679781146810" duration="11993000" />
+      <workItem from="1679781146810" duration="13641000" />
     </task>
     <servers />
   </component>
