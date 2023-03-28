@@ -54,20 +54,20 @@ public class weatherDAO implements PropertiesLoader {
         return currentResponse;
     }
 
-    public Map<String, String> getLocaleAll(int zipcode) {
-        Client client = ClientBuilder.newClient();
-        WebTarget target =
-                client.target(url_key(zipcode));
-        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-        ObjectMapper mapper = new ObjectMapper();
-        Map<String, String> map = null;
-        try {
-            map = mapper.readValue(response, Map.class);
-        } catch (IOException e) {
-            logger.error("Error -- IO exception " + e);
-        }
-        return map;
-    }
+//    public Map<String, String> getLocaleAll(int zipcode) {
+//        Client client = ClientBuilder.newClient();
+//        WebTarget target =
+//                client.target(url_key(zipcode));
+//        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+//        ObjectMapper mapper = new ObjectMapper();
+//        Map<String, String> map = null;
+//        try {
+//            map = mapper.readValue(response, Map.class);
+//        } catch (IOException e) {
+//            logger.error("Error -- IO exception " + e);
+//        }
+//        return map;
+//    }
 
 //    public Map<String, Object> getAllCurrent(int zipcode) {
 //        Client client = ClientBuilder.newClient();

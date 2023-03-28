@@ -10,21 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa1fd966-bf20-449c-b053-5495052bc125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/persistence/GenericDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Week9Activity.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sampleWeather.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Week9RESTful_exercise.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ZipodeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ZipcodeSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/persistence/weatherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/persistence/weatherDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/Current.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/Current.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/WeatherRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/WeatherRep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/persistence/weatherDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/persistence/weatherDAOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +202,7 @@
       <updated>1679668919446</updated>
       <workItem from="1679668920622" duration="8943000" />
       <workItem from="1679766898688" duration="2597000" />
-      <workItem from="1679781146810" duration="40230000" />
+      <workItem from="1679781146810" duration="40384000" />
     </task>
     <servers />
   </component>
