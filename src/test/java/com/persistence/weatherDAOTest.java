@@ -17,6 +17,7 @@ class weatherDAOTest {
         dao = new weatherDAO();
         assertEquals("Huntsville", dao.getCurrentWeather(77340).getLocation().getName());
         assertEquals("Madison", dao.getCurrentWeather(53717).getLocation().getName());
+
     }
 
     @Test

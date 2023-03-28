@@ -2,19 +2,23 @@ package com.weather;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.HashMap;
+
 public class Current{
 
+	public Current() {	}
+
 	@JsonProperty("feelslike_c")
-	private Object feelslikeC;
+	private float feelslikeC;
 
 	@JsonProperty("uv")
-	private Object uv;
+	private float uv;
 
 	@JsonProperty("last_updated")
 	private String lastUpdated;
 
 	@JsonProperty("feelslike_f")
-	private Object feelslikeF;
+	private float feelslikeF;
 
 	@JsonProperty("wind_degree")
 	private int windDegree;
@@ -26,66 +30,66 @@ public class Current{
 	private int isDay;
 
 	@JsonProperty("precip_in")
-	private Object precipIn;
+	private float precipIn;
 
 	@JsonProperty("wind_dir")
 	private String windDir;
 
 	@JsonProperty("gust_mph")
-	private Object gustMph;
+	private float gustMph;
 
 	@JsonProperty("temp_c")
-	private Object tempC;
+	private float tempC;
 
 	@JsonProperty("pressure_in")
-	private Object pressureIn;
+	private float pressureIn;
 
 	@JsonProperty("gust_kph")
-	private Object gustKph;
+	private float gustKph;
 
 	@JsonProperty("temp_f")
-	private Object tempF;
+	private float tempF;
 
 	@JsonProperty("precip_mm")
-	private Object precipMm;
+	private float precipMm;
 
 	@JsonProperty("cloud")
 	private int cloud;
 
 	@JsonProperty("wind_kph")
-	private Object windKph;
+	private float windKph;
 
 	@JsonProperty("condition")
 	private Condition condition;
 
 	@JsonProperty("wind_mph")
-	private Object windMph;
+	private float windMph;
 
 	@JsonProperty("vis_km")
-	private Object visKm;
+	private float visKm;
 
 	@JsonProperty("humidity")
 	private int humidity;
 
 	@JsonProperty("pressure_mb")
-	private Object pressureMb;
+	private float pressureMb;
 
 	@JsonProperty("vis_miles")
-	private Object visMiles;
+	private float visMiles;
 
-	public void setFeelslikeC(Object feelslikeC){
+	public void setFeelslikeC(float feelslikeC){
 		this.feelslikeC = feelslikeC;
 	}
 
-	public Object getFeelslikeC(){
+	public float getFeelslikeC(){
 		return feelslikeC;
 	}
 
-	public void setUv(Object uv){
+	public void setUv(float uv){
 		this.uv = uv;
 	}
 
-	public Object getUv(){
+	public float getUv(){
 		return uv;
 	}
 
@@ -97,11 +101,11 @@ public class Current{
 		return lastUpdated;
 	}
 
-	public void setFeelslikeF(Object feelslikeF){
+	public void setFeelslikeF(float feelslikeF){
 		this.feelslikeF = feelslikeF;
 	}
 
-	public Object getFeelslikeF(){
+	public float getFeelslikeF(){
 		return feelslikeF;
 	}
 
@@ -129,11 +133,11 @@ public class Current{
 		return isDay;
 	}
 
-	public void setPrecipIn(Object precipIn){
+	public void setPrecipIn(float precipIn){
 		this.precipIn = precipIn;
 	}
 
-	public Object getPrecipIn(){
+	public float getPrecipIn(){
 		return precipIn;
 	}
 
@@ -145,51 +149,51 @@ public class Current{
 		return windDir;
 	}
 
-	public void setGustMph(Object gustMph){
+	public void setGustMph(float gustMph){
 		this.gustMph = gustMph;
 	}
 
-	public Object getGustMph(){
+	public float getGustMph(){
 		return gustMph;
 	}
 
-	public void setTempC(Object tempC){
+	public void setTempC(float tempC){
 		this.tempC = tempC;
 	}
 
-	public Object getTempC(){
+	public float getTempC(){
 		return tempC;
 	}
 
-	public void setPressureIn(Object pressureIn){
+	public void setPressureIn(float pressureIn){
 		this.pressureIn = pressureIn;
 	}
 
-	public Object getPressureIn(){
+	public float getPressureIn(){
 		return pressureIn;
 	}
 
-	public void setGustKph(Object gustKph){
+	public void setGustKph(float gustKph){
 		this.gustKph = gustKph;
 	}
 
-	public Object getGustKph(){
+	public float getGustKph(){
 		return gustKph;
 	}
 
-	public void setTempF(Object tempF){
+	public void setTempF(float tempF){
 		this.tempF = tempF;
 	}
 
-	public Object getTempF(){
+	public float getTempF(){
 		return tempF;
 	}
 
-	public void setPrecipMm(Object precipMm){
+	public void setPrecipMm(float precipMm){
 		this.precipMm = precipMm;
 	}
 
-	public Object getPrecipMm(){
+	public float getPrecipMm(){
 		return precipMm;
 	}
 
@@ -201,11 +205,11 @@ public class Current{
 		return cloud;
 	}
 
-	public void setWindKph(Object windKph){
+	public void setWindKph(float windKph){
 		this.windKph = windKph;
 	}
 
-	public Object getWindKph(){
+	public float getWindKph(){
 		return windKph;
 	}
 
@@ -217,19 +221,19 @@ public class Current{
 		return condition;
 	}
 
-	public void setWindMph(Object windMph){
+	public void setWindMph(float windMph){
 		this.windMph = windMph;
 	}
 
-	public Object getWindMph(){
+	public float getWindMph(){
 		return windMph;
 	}
 
-	public void setVisKm(Object visKm){
+	public void setVisKm(float visKm){
 		this.visKm = visKm;
 	}
 
-	public Object getVisKm(){
+	public float getVisKm(){
 		return visKm;
 	}
 
@@ -241,19 +245,76 @@ public class Current{
 		return humidity;
 	}
 
-	public void setPressureMb(Object pressureMb){
+	public void setPressureMb(float pressureMb){
 		this.pressureMb = pressureMb;
 	}
 
-	public Object getPressureMb(){
+	public float getPressureMb(){
 		return pressureMb;
 	}
 
-	public void setVisMiles(Object visMiles){
+	public void setVisMiles(float visMiles){
 		this.visMiles = visMiles;
 	}
 
-	public Object getVisMiles(){
+	public float getVisMiles(){
 		return visMiles;
+	}
+
+	@Override
+	public String toString() {
+		return "Current{" +
+				"feelslikeC=" + feelslikeC +
+				", uv=" + uv +
+				", lastUpdated='" + lastUpdated + '\'' +
+				", feelslikeF=" + feelslikeF +
+				", windDegree=" + windDegree +
+				", lastUpdatedEpoch=" + lastUpdatedEpoch +
+				", isDay=" + isDay +
+				", precipIn=" + precipIn +
+				", windDir='" + windDir + '\'' +
+				", gustMph=" + gustMph +
+				", tempC=" + tempC +
+				", pressureIn=" + pressureIn +
+				", gustKph=" + gustKph +
+				", tempF=" + tempF +
+				", precipMm=" + precipMm +
+				", cloud=" + cloud +
+				", windKph=" + windKph +
+				", condition=" + condition +
+				", windMph=" + windMph +
+				", visKm=" + visKm +
+				", humidity=" + humidity +
+				", pressureMb=" + pressureMb +
+				", visMiles=" + visMiles +
+				'}';
+	}
+
+	public HashMap<String, String> getAllCurrent() {
+		HashMap<String, String> result = new HashMap<>();
+		result.put("feelslike_c", String.valueOf(feelslikeC));
+		result.put("uv", String.valueOf(uv));
+		result.put("lastUpdated", lastUpdated);
+		result.put("feelslike_f", String.valueOf(feelslikeF));
+		result.put("windDegree=", String.valueOf(windDegree));
+		result.put("lastUpdatedEpoch", String.valueOf(lastUpdatedEpoch));
+		result.put("isDay", String.valueOf(isDay));
+		result.put("precipIn", String.valueOf(precipIn));
+		result.put("windDir", windDir );
+		result.put("gustMph", String.valueOf(gustMph));
+		result.put("tempC", String.valueOf(tempC));
+		result.put("pressureIn", String.valueOf(pressureIn));
+		result.put("gustKph", String.valueOf(gustKph));
+		result.put("tempF", String.valueOf(tempF));
+		result.put("precipMm", String.valueOf(precipMm));
+		result.put("cloud", String.valueOf(cloud));
+		result.put("windKph", String.valueOf(windKph));
+		result.put("condition", String.valueOf(condition));
+		result.put("windMph", String.valueOf(windMph));
+		result.put("visKm", String.valueOf(visKm));
+		result.put("humidity", String.valueOf(humidity));
+		result.put("pressureMb", String.valueOf(pressureMb));
+		result.put("visMiles", String.valueOf(visMiles));
+		return result;
 	}
 }

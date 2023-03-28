@@ -1,0 +1,27 @@
+[INFO ] 2023-03-27 20:03:22.401 [http-nio-8088-exec-71] ZipcodeSearch - com.weather.Location@5d5c73bb
+[INFO ] 2023-03-27 20:05:41.228 [http-nio-8088-exec-75] ZipcodeSearch - Zip: 53818  com.weather.Location@3d36fbc7
+[INFO ] 2023-03-27 20:06:18.429 [http-nio-8088-exec-82] ZipcodeSearch - Zip: 53818  Platteville
+[ERROR] 2023-03-27 20:26:22.913 [main] weatherDAO - Error processing JSON... com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "location" (class com.weather.Location), not marked as ignorable (8 known properties: "localtime_epoch", "region", "country", "localtime", "name", "lat", "tz_id", "lon"])
+ at [Source: (String)"{"location":{"name":"Huntsville","region":"Texas","country":"USA","lat":30.73,"lon":-95.55,"tz_id":"America/Chicago","localtime_epoch":1679966782,"localtime":"2023-03-27 20:26"},"current":{"last_updated_epoch":1679966100,"last_updated":"2023-03-27 20:15","temp_c":22.8,"temp_f":73.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":10,"wind_dir":"N","pressure_mb":1015.0,"pressure_in":29.97,"pre"[truncated 160 chars]; line: 1, column: 14] (through reference chain: com.weather.Location["location"])
+[INFO ] 2023-03-27 21:37:09.570 [http-nio-8088-exec-5] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-27 21:39:51.181 [http-nio-8088-exec-1] ZipcodeSearch -     53818 Platteville
+[INFO ] 2023-03-27 21:42:08.980 [http-nio-8088-exec-16] ZipcodeSearch -     77340 Huntsville
+[INFO ] 2023-03-27 21:43:14.374 [http-nio-8088-exec-6] ZipcodeSearch -     77340 Huntsville
+[INFO ] 2023-03-28 09:59:42.907 [http-nio-8088-exec-4] ZipcodeSearch -     53818 Platteville
+[INFO ] 2023-03-28 10:01:47.779 [http-nio-8088-exec-9] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 10:03:03.850 [http-nio-8088-exec-3] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 10:05:37.925 [http-nio-8088-exec-15] ZipcodeSearch -     53818 Platteville
+[INFO ] 2023-03-28 10:07:39.578 [http-nio-8088-exec-10] ZipcodeSearch -     53818 Platteville
+[INFO ] 2023-03-28 10:08:31.025 [http-nio-8088-exec-12] ZipcodeSearch -     53818 Platteville
+[INFO ] 2023-03-28 10:34:29.558 [http-nio-8088-exec-27] ZipcodeSearch -     77340 Huntsville
+[INFO ] 2023-03-28 10:35:04.660 [http-nio-8088-exec-37] ZipcodeSearch -     77340 Huntsville
+[INFO ] 2023-03-28 11:02:51.408 [http-nio-8088-exec-43] ZipcodeSearch -     77340 Huntsville
+[INFO ] 2023-03-28 11:05:33.043 [http-nio-8088-exec-46] ZipcodeSearch -     77340 Huntsville
+[INFO ] 2023-03-28 11:06:40.188 [http-nio-8088-exec-48] ZipcodeSearch -     77340 Huntsville
+[INFO ] 2023-03-28 11:07:47.752 [http-nio-8088-exec-59] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 11:24:53.739 [http-nio-8088-exec-65] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 11:27:25.432 [http-nio-8088-exec-82] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 11:28:12.189 [http-nio-8088-exec-84] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 11:32:16.088 [http-nio-8088-exec-90] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 11:32:18.898 [http-nio-8088-exec-95] ZipcodeSearch -     53717 Madison
+[INFO ] 2023-03-28 11:33:00.208 [http-nio-8088-exec-96] ZipcodeSearch -     77340 Huntsville

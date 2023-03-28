@@ -3,6 +3,9 @@ package com.persistence;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.util.PropertiesLoader;
+
+import com.weather.Current;
+import com.weather.Location;
 import com.weather.WeatherRep;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,7 +15,7 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import java.io.IOException;
-import java.util.Properties;
+import java.util.*;
 
 public class weatherDAO implements PropertiesLoader {
     Properties properties;
@@ -33,6 +36,7 @@ public class weatherDAO implements PropertiesLoader {
         }
     }
 
+
     public WeatherRep getCurrentWeather(int zipcode) {
         Client client = ClientBuilder.newClient();
         WebTarget target =
@@ -45,9 +49,41 @@ public class weatherDAO implements PropertiesLoader {
         } catch (JsonProcessingException e) {
             logger.error("Error processing JSON... " + e);
         }
-//        logger.info("   ****RESPONSE: " + currentResponse);
+//        logger.info("    *****RESPONSE2: " + currentResponse.getLocation().getName() + ", " +
+//                currentResponse.getLocation().getRegion() + " " + currentResponse.getCurrent().getTempF());
         return currentResponse;
     }
+
+    public Map<String, String> getLocaleAll(int zipcode) {
+        Client client = ClientBuilder.newClient();
+        WebTarget target =
+                client.target(url_key(zipcode));
+        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+        ObjectMapper mapper = new ObjectMapper();
+        Map<String, String> map = null;
+        try {
+            map = mapper.readValue(response, Map.class);
+        } catch (IOException e) {
+            logger.error("Error -- IO exception " + e);
+        }
+        return map;
+    }
+
+//    public Map<String, Object> getAllCurrent(int zipcode) {
+//        Client client = ClientBuilder.newClient();
+//        WebTarget target =
+//                client.target(url_key(zipcode));
+//        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+//        ObjectMapper mapper = new ObjectMapper();
+//        Map<String, Object> map = null;
+//        try {
+//            map = mapper.readValue(response, Map.class);
+//        } catch (IOException e) {
+//            logger.error("Error -- IO exception " + e);
+//        }
+//        return map;
+//    }
+
 
     /**
      * Helper method to return the proper URL and Key for client target
@@ -60,4 +96,7 @@ public class weatherDAO implements PropertiesLoader {
 //        logger.debug("   ****DEBUG --> " + result);
         return result;
     }
+
+
+
 }

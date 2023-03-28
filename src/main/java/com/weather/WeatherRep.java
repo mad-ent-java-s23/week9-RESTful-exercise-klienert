@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class WeatherRep{
 
+	public WeatherRep() { }
+
 	@JsonProperty("current")
 	private Current current;
 
@@ -24,5 +26,13 @@ public class WeatherRep{
 
 	public Location getLocation(){
 		return location;
+	}
+
+	@Override
+	public String toString() {
+		return "WeatherRep{" +
+				"current=" + current +
+				", location=" + location +
+				'}';
 	}
 }
