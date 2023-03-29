@@ -21,6 +21,8 @@ public class HelloWorld {
         String returnIndex = "<p><a href=\"" + index + "\">Home</a></p>";
 
         String htmlEx = "<html><body><h1>" + output + "</h1>" + returnIndex + "</body></html>";
+    //        Not just a string... can bring in other classes/DAOs...
+
         return Response.status(200).entity(htmlEx).build();
     }
 }

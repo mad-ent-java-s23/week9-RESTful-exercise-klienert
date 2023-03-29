@@ -4,12 +4,12 @@
 
 <html>
 <body>
-<div class="container">
+<div class="container-fluid m-3">
     <h2 class="text-center text-primary"> Week 9 - First RESTful Service Activity</h2>
     <div class="row justify-content-center">
         <p>...</p>
         <p><a href="http://localhost:8088/week_9_RESTful_exercise_klienert_war/services/greetings/Keith">Test</a></p>
-<%--        http://localhost:8088/week_9_RESTful_exercise_klienert_war/services/greetings/Keith  --%>
+
     </div>
 
 
