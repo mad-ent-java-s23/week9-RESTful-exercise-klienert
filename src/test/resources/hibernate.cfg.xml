@@ -1,21 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE hibernate-configuration PUBLIC
-        "-//Hibernate/Hibernate Configuration DTD//EN"
-        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <!--        TEST-->
-        <!--        <property name="connection.url">jdbc:mysql://localhost:3306/test_sample</property>-->
-
-        <!--        SAMPLE-->
-        <property name="connection.url">jdbc:mysql://localhost:3306/sample</property>
-
-        <!--        AWS SAMPLE-->
-        <!--        <property name="connection.url">jdbc:mysql://awseb-e-fin5hreqgw-stack-awsebrdsdatabase-rjjsyzpyzyrp.cwlztdnaysb9.us-east-2.rds.amazonaws.com:3306/sample</property>-->
-
+        <property name="connection.url">jdbc:mysql://localhost:3306/test_sample</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-
-
 
         <property name="connection.username">root</property>
         <property name="connection.password"></property>
@@ -30,5 +16,4 @@
         <mapping class="edu.matc.entity.Order"/>
 
     </session-factory>
-
 </hibernate-configuration>

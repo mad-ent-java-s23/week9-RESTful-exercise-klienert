@@ -43,7 +43,6 @@ public class EditUser extends HttpServlet {
         UserDao userDao = new UserDao();
         req.setAttribute("user", userDao.getById(Integer.parseInt(req.getParameter("id"))));
 
-
         RequestDispatcher dispatcher = req.getRequestDispatcher("/editUser.jsp");
         dispatcher.forward(req, resp);
     }
