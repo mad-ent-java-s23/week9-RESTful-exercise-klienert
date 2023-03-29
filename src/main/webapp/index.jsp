@@ -1,21 +1,18 @@
 <%@include file="taglib.jsp"%>
-<c:set var="title" value="Get Your Weather!" />
+<c:set var="title" value="Week 9 - RESTful Activity" />
 <%@include file="head.jsp"%>
 
 <html>
 <body>
 <div class="container">
-    <h2 class="text-center"> Simple Java Weather App</h2>
-    <form action="searchZip" class="form-inline">
-        <div class="form-group p-2">
-            <label for="zipcode" class="m-1 p-1">Get Weather!</label>
-            <input type="text" class="form-control" id="zipcode" name="zipcode"
-                   pattern="[0-9]*" title="Enter your Zipcode"
-                    aria-describedby="searchZipcodeHelp" placeholder="Enter Zipcode">
-        </div>
-        <button type="submit" name="submit" value="search" class="btn btn-primary m-2">Get Weather</button>
-    </form>
-    <hr>
+    <h2 class="text-center text-primary"> Week 9 - First RESTful Service Activity</h2>
+    <div class="row justify-content-center">
+        <p>...</p>
+        <p><a href="http://localhost:8088/week_9_RESTful_exercise_klienert_war/services/greetings/Keith">Test</a></p>
+<%--        http://localhost:8088/week_9_RESTful_exercise_klienert_war/services/greetings/Keith  --%>
+    </div>
+
+
 </div>
 </body>
 </html>

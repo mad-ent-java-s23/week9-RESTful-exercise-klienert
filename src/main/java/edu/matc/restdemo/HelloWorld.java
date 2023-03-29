@@ -17,7 +17,10 @@ public class HelloWorld {
         // Return a simple message
 
         String output = "Hello World -- " + name;
-        String htmlEx = "<html><body><h1>" + output + "</h1></body></html>";
+        String index = "http://localhost:8088/week_9_RESTful_exercise_klienert_war/";
+        String returnIndex = "<p><a href=\"" + index + "\">Home</a></p>";
+
+        String htmlEx = "<html><body><h1>" + output + "</h1>" + returnIndex + "</body></html>";
         return Response.status(200).entity(htmlEx).build();
     }
 }
