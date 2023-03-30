@@ -10,15 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa1fd966-bf20-449c-b053-5495052bc125" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Week9RESTful_exercise.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Week9RESTful_exercise.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +263,7 @@
       <workItem from="1680121671857" duration="5852000" />
       <workItem from="1680136296256" duration="5258000" />
       <workItem from="1680143107461" duration="3490000" />
-      <workItem from="1680189174168" duration="5549000" />
+      <workItem from="1680189174168" duration="5825000" />
     </task>
     <servers />
   </component>
