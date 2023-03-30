@@ -4,20 +4,25 @@
 
 <html>
 <body>
-<%--<%response.sendRedirect("searchUser?searchTerm=&submit=viewAll");%>--%>
 
 <div class="container-fluid m-3">
     <h2 class="text-center text-primary"> Week 9 - First RESTful Service Activity</h2>
     <div class="row justify-content-center">
-        <p>Web Service (Hello Program)</p>
-        <p><a href="http://localhost:8088/week_9_RESTful_exercise_klienert_war/services/greetings/Keith">Test</a></p>
+        <div class="col-6">
+            <p>Web Service (Hello Exercise)</p>
+            <p><a href="http://localhost:8088/week_9_RESTful_exercise_klienert_war/services/greetings/Keith">Test</a></p>
+        </div>
+        <div class="col-6">
+            <p>Get all users (JSON):
+                <br/>
+                <a href="http://localhost:8088/week_9_RESTful_exercise_klienert_war/UserService/users">All Users</a>
+            </p>
+        </div>
     </div>
     <hr>
-    <div class="row">
+    <div class="row justify-content-center">
         <div class="col-md-8">
-<%--            <%response.sendRedirect("searchUser?searchTerm=&submit=viewAll");%>--%>
-            <a href="search.jsp">Search page</a>
-            <br />
+            <%@include file="search.jsp"%>
         </div>
     </div>
 

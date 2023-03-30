@@ -10,23 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa1fd966-bf20-449c-b053-5495052bc125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/editUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/matc/entity/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/matc/persistence/OrderDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/matc/test/util/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Week9RESTful_exercise.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Week9RESTful_exercise.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/controller/EditUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/controller/EditUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +82,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/edu/matc/persistence" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.matc.service" />
       <recent name="com.persistence" />
       <recent name="com.controller" />
     </key>
@@ -267,11 +259,14 @@
       <workItem from="1679766898688" duration="2597000" />
       <workItem from="1679781146810" duration="49211000" />
       <workItem from="1680056930412" duration="11776000" />
-      <workItem from="1680121671857" duration="2078000" />
+      <workItem from="1680121671857" duration="5852000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
 </project>

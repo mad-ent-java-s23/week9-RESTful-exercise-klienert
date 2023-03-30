@@ -1,5 +1,6 @@
 package edu.matc.entity;
 
+
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -114,7 +115,6 @@ public class User {
 
     /**
      * Sets first name.
-     *
      * @param firstName the first name
      */
     public void setFirstName(String firstName) {
