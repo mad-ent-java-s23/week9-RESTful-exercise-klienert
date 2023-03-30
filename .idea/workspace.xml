@@ -10,14 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa1fd966-bf20-449c-b053-5495052bc125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Week9RESTful_exercise.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Week9RESTful_exercise.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/restdemo/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <recent name="com.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.TommyTheCat">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.5">
     <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="week-9-RESTful-exercise-klienert" />
       <extension name="coverage">
@@ -149,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TommyTheCat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 8.5.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="week-9-RESTful-exercise-klienert:war">
@@ -159,7 +160,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="63549b8f-e624-4504-bb6d-ba4f748b0436" />
+        <option name="BASE_DIRECTORY_NAME" value="f51a088a-64ef-4dab-bbda-5072971b9f54" />
         <option name="HTTP_PORT" value="8088" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -168,7 +169,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49247" />
+        <option name="DEBUG_PORT" value="55999" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -238,6 +239,13 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="install" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.UserDaoTest" />
+      <item itemvalue="JUnit.UserDaoTest.getAllUsersSuccess" />
+      <item itemvalue="JUnit.UserTest" />
+      <item itemvalue="JUnit.weatherDAOTest" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.5" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserDaoTest" />
@@ -260,6 +268,9 @@
       <workItem from="1679781146810" duration="49211000" />
       <workItem from="1680056930412" duration="11776000" />
       <workItem from="1680121671857" duration="5852000" />
+      <workItem from="1680136296256" duration="5258000" />
+      <workItem from="1680143107461" duration="3490000" />
+      <workItem from="1680189174168" duration="5549000" />
     </task>
     <servers />
   </component>
